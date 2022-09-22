@@ -1,0 +1,59 @@
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
+class Player {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        int lightX = in.nextInt(); // posição X da luz do poder
+        int lightY = in.nextInt(); // posição Y da luz do poder
+        int initialTX = in.nextInt(); // posição inicial X do thor
+        int initialTY = in.nextInt(); // posição inicial Y do thor
+
+        // repetição
+        while (true) { // enquanto for verdadeiro
+            int remainingTurns = in.nextInt(); // a quantidade de turno restantes para o turno do thor
+              System.err.println(initialTX + " " + initialTY ); // mensagem de erro: posição X do thor + espaço + posição Y do thor
+              if (Math.abs(lightX - initialTX) > Math.abs(lightY - initialTY)) { // se o valor absoluto da posição X da luz menos a posição X do thor for maior que a posição Y da luz menos a posição Y do thor
+                if (lightX > initialTX && initialTX < 40) { // se a posição X da luz for maior que a posição X do thor e a posição X do thor for menor que 40
+                    System.out.println("E"); // movimento para o leste
+                    initialTX++; // incremento da posição X do thor
+                } else { // se não
+                    System.out.println("W"); // movimento para o oeste
+                    initialTX--; // volta a posição X do thor
+                }
+
+              }
+              else if (Math.abs(lightX - initialTX) < Math.abs(lightY - initialTY)) { // se não se o valor absoluto da posição X menos a posição X do thor for menor que o valor absoluto da posição Y menos a posição Y do thor
+                 if (lightY > initialTY && initialTY < 18) { // se a posição Y da luz for maior que a posição Y do thor e a posição Y do thor for menor que 18
+                    System.out.println("S"); // movimento para o sul
+                    initialTY++; // incremento da posição Y do thor
+                } else { // se não
+                    System.out.println("N"); // movimento para o norte
+                    initialTY--; // volta a posição Y do thor
+                }
+              }
+              else if (Math.abs(lightX - initialTX) == Math.abs(lightY - initialTY)) { // se não se o valor absoluto da posição X menos a posição X do thor for igual o valor absoluto da posição Y menos a posição Y do thor
+                  if ((lightX - initialTX) >= 0 && (lightY - initialTY) <= 0){ // se a posição X da luz menos a posição X do thor for maior ou igual que 0 e a posição Y da luz menos a posição Y do thor menor ou igual que 0
+                    System.out.println("NE"); // movimento para o nordeste
+                    initialTY--; // volta a posição Y do thor
+                    initialTX++; // incremento da posição X do thor
+                  } else if ((lightX - initialTX) <= 0 && (lightY - initialTY) <= 0) { // se a posição X da luz menos a posição X do thor for menor ou igual que 0 e a posição Y da luz menos a posição Y do thor menor ou igual que 0
+                    System.out.println("NW"); // movimento para o noroeste
+                    initialTY--; // volta a posição Y do thor
+                    initialTX--; // volta a posição X do thor
+                  } else if ((lightX - initialTX) >= 0 && (lightY - initialTY) >= 0) { // se a posição X da luz menos a posição X do thor for maior ou igual que 0 e a posição Y da luz menos a posição Y do thor maior ou igual que 0
+                    System.out.println("SE"); // movimento para o sudeste
+                    initialTY++; // incremento da posição Y do thor
+                    initialTX++; // incremento da posição X do thor
+                  } else { // se não
+                    System.out.println("SW"); // movimento para o sudoeste
+                    initialTY++; // incremento da posição Y do thor
+                    initialTX--; // volta a posição de X do thor
+                  }
+              }
+        }
+    }
+}
+
+// Equipe: Daniel, Sérgio e Otávio
