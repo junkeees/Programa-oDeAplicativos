@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Criterios.Depositar">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="12" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="586"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="67d0c" class="javax.swing.JLabel" binding="logo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Imagens/Paragon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ae2ef" class="javax.swing.JLabel" binding="amountLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Total: R$1500,00 (Demo)"/>
+        </properties>
+      </component>
+      <component id="48d48" class="javax.swing.JSeparator" binding="separator1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2286e" class="javax.swing.JLabel" binding="label2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Digite abaixo o valor para depósito"/>
+        </properties>
+      </component>
+      <component id="b1d2f" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quantia"/>
+        </properties>
+      </component>
+      <component id="16e5c" class="javax.swing.JTextArea" binding="textArea1">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10327444"/>
+          <text value="Insira a quantia"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <component id="72014" class="javax.swing.JSeparator" binding="separator3">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b204e" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Limpar"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <label value="Depositar"/>
+          <text value="Depositar"/>
+        </properties>
+      </component>
+      <component id="af7dd" class="javax.swing.JSeparator" binding="separator2">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="dfcfa" class="javax.swing.JSeparator" binding="separator4">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="d5148" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Limpar"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <label value="Voltar"/>
+          <text value="Voltar"/>
+        </properties>
+      </component>
+      <component id="18fc1" class="javax.swing.JLabel" binding="label3">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Depósito de até R$5.000,00 em um limite de *12 parcelas* (segurança bancária)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

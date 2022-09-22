@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Criterios.Banco">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="20" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="116" y="23" width="827" height="821"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <focusable value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <requestFocusEnabled value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none" title-position="2">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="b79d1" class="javax.swing.JSeparator" binding="separator7">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bc181" class="javax.swing.JLabel" binding="label2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Conta"/>
+        </properties>
+      </component>
+      <component id="73f92" class="javax.swing.JLabel" binding="logo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Imagens/Paragon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="96d40" class="javax.swing.JButton" binding="button3">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <text value="Criar conta"/>
+        </properties>
+      </component>
+      <component id="21610" class="javax.swing.JLabel" binding="label6">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Não possui uma conta?"/>
+        </properties>
+      </component>
+      <component id="1ea95" class="javax.swing.JSeparator" binding="separator6">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5a9c9" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Já tem uma conta? Acesse sua conta!"/>
+        </properties>
+      </component>
+      <component id="84572" class="javax.swing.JSeparator" binding="separator1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="6d3" class="javax.swing.JComboBox" binding="comboBox1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="true"/>
+          <model>
+            <item value="Pessoa Física"/>
+            <item value="Pessoa Jurídica"/>
+            <item value="Setor público"/>
+          </model>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="6ed44" class="javax.swing.JSeparator" binding="separatorH1">
+        <constraints>
+          <grid row="0" column="2" row-span="20" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="a5646" class="javax.swing.JSeparator" binding="separatorH2">
+        <constraints>
+          <grid row="0" column="0" row-span="20" col-span="1" vsize-policy="6" hsize-policy="6" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="d5d26" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Continuar"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <label value="Continuar"/>
+          <text value="Continuar"/>
+        </properties>
+      </component>
+      <component id="e048c" class="javax.swing.JSeparator" binding="separator2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="af97" class="javax.swing.JSeparator" binding="separator5">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <orientation value="0"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="d87ea" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Limpar"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <label value="Limpar"/>
+          <text value="Limpar"/>
+        </properties>
+      </component>
+      <component id="566f8" class="javax.swing.JSeparator" binding="separator3">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="899df" class="javax.swing.JSeparator" binding="separator4">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="8708d" class="javax.swing.JLabel" binding="label3">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Informe sua conta com o dígito"/>
+        </properties>
+      </component>
+      <component id="67cf9" class="javax.swing.JLabel" binding="label4">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Agência"/>
+        </properties>
+      </component>
+      <component id="9cac5" class="javax.swing.JPasswordField" binding="passwordField1">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10327444"/>
+          <caretColor color="-10327444"/>
+          <echoChar value="~"/>
+          <foreground color="-1513240"/>
+          <horizontalAlignment value="0"/>
+          <name value=""/>
+          <opaque value="true"/>
+          <selectionEnd value="16"/>
+          <selectionStart value="16"/>
+          <text value="Agência bancária"/>
+        </properties>
+      </component>
+      <component id="2606b" class="javax.swing.JLabel" binding="label5">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Informe sua agência com o dígito"/>
+        </properties>
+      </component>
+      <component id="64a2" class="javax.swing.JTextField" binding="textField1">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10327444"/>
+          <caretColor color="-10327444"/>
+          <foreground color="-1513240"/>
+          <horizontalAlignment value="0"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <selectionEnd value="14"/>
+          <selectionStart value="14"/>
+          <text value="Conta corrente"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
